@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #000000; 
+    color: white;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    padding: 20px 10%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 190px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+nav a:hover {
+    transition: 0.3s;
+    color: aqua;
+}
+.header-text {
+    margin-top: 19%;
+    font-size: 30px;
+    line-height: 50px;
+}
+.header-text p {  /* I'm skilled with */
+    font-size: 40px;
+}
+.header-text h1 {  /* I'm Yasiru Isum Geenula */
+    font-size: 60px;
+    margin-top: 10px;
+}
+.header-text h2 {  /* I'm skilled with */
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+/* Mobile Version */
+.mb-hi {
+    display: none;
+}
+.mb-name {
+    display: none;
+}
+.mb-skills {
+    display: none; 
+}
+span{
+    color: rgb(0, 255, 170);
+}
+.mb-propic {
+    display: none; 
+}
+nav .fa-solid{
+    display: none;
+}
+
+/* Media Quaries */
+@media only screen and (max-width: 1024px){ 
+    #header{
+        background-image: url(images/phone-background.png);
+    }
+    .header-text {
+        margin-top: 19%;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .header-text p {    /* I'm skilled with | Desktop Version */
+        display: none;  
+        font-size: 30px;
+    }
+    .header-text h1 {   /* I'm Yasiru Isum Geenula | Desktop Version */
+        display: none;  
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .header-text h2 {   /* I'm skilled with | Desktop Version */   
+        display: none;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .mb-hi {    /* Hi there | Mobile Version */
+        font-size: 30px;
+        display: block;
+    }
+    .mb-name {    /* I'm Geenula | Mobile Version */  
+        font-size: 50px;
+        display: block;
+    }
+    .mb-skills {
+        display: block; 
+    }
+    .mb-auto-type {
+        font-size: 28px;
+        display: block;  
+    }
+    /*
+    .mb-propic {
+        align-items: center;
+        width: 100%;
+        display: block; 
+    }
+    */
+}
