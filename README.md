@@ -2,8 +2,6 @@
 
 ### This readme section contains all the references used to create this Portfolio.
 
-## Design and idea get by: Behance, YouTube and Google 
-
 ## -----Name and Logo-----
 
 #### Website Name (Brand Name): Business Name Generator | https://businessnamegenerator.com/
