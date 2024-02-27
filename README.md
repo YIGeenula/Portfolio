@@ -2,7 +2,8 @@
 
 ### This readme section contains all the references used to create this Portfolio.
 
-## Design and idea get by: Behance, YouTube and Google 
+## Design and idea got by: Behance, YouTube and Google 
+## To Solve errors: YouTube, Stackoverflow, Google Scholar
 
 ## -----Name and Logo-----
 
@@ -14,3 +15,14 @@
 
 #### Auto Typing Part: GITHUB :- mattboldt | https://github.com/mattboldt/typed.js/?tab=readme-ov-file
 #### Profile Picture Edit: Adobe Photoshop
+
+## -----Project Section-----   
+
+### Mockups for Cards 
+#### Card 01 Mockup | https://unblast.com/  || Edit: Adobe Photoshop
+#### Card 02 Mockup | https://unblast.com/  || Edit: Adobe Photoshop
+#### Card 03 Mockup | https://www.freepik.com/  || Edit: Adobe Photoshop
+
+#### -----Resume Section-----  
+### Mockups for Cards 
+#### Card Mockup | https://www.freepik.com/ || Edit: Adobe Photoshop
