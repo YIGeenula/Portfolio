@@ -70,6 +70,20 @@ nav a:hover {
     font-size: 45px;
     margin-top: 5px;
 }
+.social-icons {
+    margin-top: 20px; 
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 20px;
+    color: #ffffff;
+    display: inline-block; 
+}
+.social-icons a:hover{
+    transition: 0.5s;
+    color: #00ffaa;
+}
 
 /* Mobile Version */
 .mb-hi {
@@ -88,6 +102,9 @@ span{
     display: none; 
 }
 nav .fa-solid{
+    display: none;
+}
+.mb-si {
     display: none;
 }
 
@@ -230,88 +247,6 @@ nav .fa-solid{
     transition: box-shadow 0.3s ease;
 }
 
-/*Resume*/
-#resume {
-    padding: 100px 0; 
-}
-.resume-container{
-    padding-left: 200px;
-    padding-right: 400px;
-    margin-left: 200px;
-    position: relative; 
-}
-.resume-title {
-    padding-top: 50px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 600;
-}
-.resume-list {
-    display: flex;
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.resume-des {
-    padding-top: 2%;
-    font-size: 20px;
-    line-height: 30px;
-}
-.resume {
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 5px 5px 15px #000000;
-}
-.resume img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform, 0.5s;
-}
-.resume:hover img {
-    transform: scale(1.09);
-}
-.res-view-btn {
-    display: block;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: -20%;
-    margin-left: 32.5%;
-    width: fit-content;
-    border: none;
-    background-color: aqua;
-    padding: 14px 50px;;
-    border-radius: 25px;
-    text-decoration: none;
-    box-shadow: 4px 4px 10px #000000;
-    cursor: pointer;
-}
-.res-view-btn:hover {
-    box-shadow: 0 0 10px aqua;
-    transition: box-shadow 0.3s ease;
-}
-.res-download-btn {
-    display: block;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 2%;
-    margin-left: 32.5%;
-    width: fit-content;
-    border: none;
-    background-color: aqua;
-    padding: 14px 50px;;
-    border-radius: 25px;
-    text-decoration: none;
-    box-shadow: 4px 4px 10px #000000;
-    cursor: pointer;
-}
-.res-download-btn:hover {
-    box-shadow: 0 0 10px aqua;
-    transition: box-shadow 0.3s ease;
-}
-
 /* Media Quaries */
 @media only screen and (max-width: 900px){ 
     /* Header Section */
@@ -352,10 +287,22 @@ nav .fa-solid{
         font-size: 28px;
         display: block;  
     }
+    .social-icons a {
+        display: none;
+    }
+    .mb-si {  /* Social Media Icons */
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: -10px;
+        margin-right: 20px;
+        color: #ffffff;
+        display: inline-block;
+    }
     .mb-propic {
         align-items: center;
         width: 100%;
         display: block; 
+        position: relative;
     }
     nav .fa-solid{
         display: block;
@@ -435,26 +382,6 @@ nav .fa-solid{
         margin-top: 10px;
         font-size: 16px; 
     }
-    /* Resume Section */
-    .resume-container {
-        text-align: center;
-        padding-left: 0; 
-        padding-right: 20px; 
-        margin-left: 20px; 
-    }
-    .resume-title {
-        font-size: 40px; 
-    }
-    .resume-list {
-        flex-direction: column; 
-        align-items: center; 
-        margin-top: 20px; 
-    }
-    .res-view-btn,
-    .res-download-btn {
-        margin-left: auto; 
-        margin-right: auto; 
-        margin-top: 20px; 
-    }
+    
 }
 
