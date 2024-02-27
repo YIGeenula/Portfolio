@@ -27,3 +27,7 @@
 #### Card 01 Mockup | https://unblast.com/  || Edit: Adobe Photoshop
 #### Card 02 Mockup | https://unblast.com/  || Edit: Adobe Photoshop
 #### Card 03 Mockup | https://www.freepik.com/  || Edit: Adobe Photoshop
+
+## -----Resume Page----- 
+
+#### CV Mockup | https://www.freepik.com/  || Edit: Adobe Photoshop

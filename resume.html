@@ -8,7 +8,7 @@
     <link rel="tab icon" href="images/Portfolio-TabIcon.png" type="x-icon">
 
     <!--Link CSS and JS pages-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/resumeStyles.css">
     <script src="script.js"></script>
 
     <!--Typing Effect CDN-->
@@ -25,14 +25,43 @@
                 <a href="#">
                     <img src="images/Portfolio-NavBar-Logo.png" class="logo" alt="">
                 </a>
-                <ul>
+                <ul id="mbNav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">About Me</a></li>
                     <li><a href="index.html">Projects</a></li>
                     <li><a href="index.html">Contact Me</a></li> 
-                    <i class="fa-solid fa-xmark"></i>   
+                    <i class="fa-solid fa-xmark" onclick="closeNav()"></i>   
                 </ul>                                       
-                <i class="fa-solid fa-bars"></i>    <!--Mobile Navigation Still in Progress-->
-            </nav>
+                <i class="fa-solid fa-bars" onclick="openNav()"></i>   
+            </nav> 
+            <div class="resume">
+                <img src="images/CV-card.png" class="resume-img" alt="">
+                <div class="resume-layer">
+                    <h1>Resume</h1>
+                    <p>Welcome! This CV section contains comprehensive information about me, including my skills, experiences, and background. 
+                        You can explore all the details by viewing my CV below. Additionally, feel free to download a copy for your reference or sharing purposes using the 
+                        buttons provided.</p>
+                </div>
+
+                <!--View Button only works for those who have not installed a download manager on their computer-->
+                <a href="assets/CV.pdf" target="_blank" class="res-view-btn">View CV</a> 
+                <a href="assets/CV.pdf" download="" target="_blank" class="res-download-btn">Download CV</a>
+            </div>   
         </div>
     </div>
+    
+    <!--Mobile Navigation Script--> <!--Using inline js bcz external js file not worked for this-->
+    <script>
+        var mobileNav = document.getElementById("mbNav");
+                function openNav(){
+                    mobileNav.style.right = "0";
+                }
+                function closeNav(){
+                    mobileNav.style.right = "-200px";
+                }
+    </script>
+
+    
+
+</body>
+</html>

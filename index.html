@@ -25,15 +25,15 @@
                 <a href="#">
                     <img src="images/Portfolio-NavBar-Logo.png" class="logo" alt="">
                 </a>
-                <ul>
+                <ul id="mbNav">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="#contact">Contact Me</a></li> 
-                    <i class="fa-solid fa-xmark"></i>   
+                    <i class="fa-solid fa-xmark" onclick="closeNav()"></i>   
                 </ul>                                       
-                <i class="fa-solid fa-bars"></i>    <!--Mobile Navigation Still in Progress-->
+                <i class="fa-solid fa-bars" onclick="openNav()"></i>  
             </nav>
             <div class="header-text">
                 <p>Hi there...</p>
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <!--Auto Typing Effect Script-->
+    <!--Auto Typing Effect Script--> <!--Using inline js bcz external js file not working for this-->
     <script>
         //Desktop Version
         typed = new Typed(".auto-type",{
@@ -80,6 +80,15 @@
         backSpeed : 75,
         looped : true
         })
+
+        //Mobile Navigation Script | Using inline js bcz external js file not working for this
+        var mobileNav = document.getElementById("mbNav");
+        function openNav(){
+            mobileNav.style.right = "0";
+        }
+        function closeNav(){
+            mobileNav.style.right = "-200px";
+        } 
     </script> 
 
     <!--About-->
