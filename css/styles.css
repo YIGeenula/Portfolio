@@ -85,7 +85,7 @@ nav a:hover {
     color: #00ffaa;
 }
 
-/* Mobile Version */
+/*--------- Mobile Version --------- */ 
 .mb-hi {
     display: none;
 }
@@ -108,7 +108,7 @@ nav .fa-solid{
     display: none;
 }
 
-/*About*/
+/*--------- About --------- */ 
 #about {
     padding: 160px 0;
     color: white;
@@ -142,12 +142,12 @@ nav .fa-solid{
     line-height: 140%;
 }
 
-/* Mobile Version */
+/*--------- Mobile Version --------- */ 
 .mb-abtme-des {
     display: none;
 }
 
-/* projects */
+/*--------- Projects --------- */ 
 #projects {
     padding: 160px 0; 
     background-color: #1f232d;
@@ -247,9 +247,137 @@ nav .fa-solid{
     transition: box-shadow 0.3s ease;
 }
 
-/* Media Quaries */
+/*--------- Skills --------- */ 
+#skills {
+    padding: 100px 0;
+    padding-bottom: 180px; 
+}
+.skills-container{
+    padding-left: 200px;
+    padding-right: 400px;
+    margin-left: 200px;
+    position: relative; 
+}
+.skills-title{
+    padding-top: 3%;
+    margin-top: 100px;  
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+.skills-list {
+    width: 120%;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 80px;  
+    margin-left: -100px;   
+}
+
+.skills-list div {
+    background: #1f232d;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #000000;
+    transition: background 0.5s, transform 0.5s;
+}
+.skills-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.skills-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.skills-list div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.skills-list div:hover {
+    background: #0099ff;
+    transform: scale(1.02);
+}
+#viewjBtn {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 80px auto;
+    width: fit-content;
+    border: none;
+    background-color: aqua;
+    padding: 14px 50px;;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 4px 4px 10px #000000;
+    cursor: pointer;
+}
+#viewjBtn:hover {
+    box-shadow: 0 0 10px aqua;
+    transition: box-shadow 0.3s ease;
+}
+
+/*--------- Contact --------- */ 
+#contact {
+    padding: 160px 0;
+    background-color: #1f232d;
+}
+.contact-title h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.contact-form form {
+    text-align: center;
+    padding-top: 3%;
+    width: 30%;
+    margin: 0 auto; 
+}
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%; 
+    border: 0;
+    outline: none;
+    background: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0; 
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    resize: vertical;
+}
+.contact-form form button{
+    width: auto; 
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px auto;
+    width: fit-content;
+    border: none;
+    background-color: aqua;
+    padding: 14px 50px;;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 4px 4px 10px #000000;
+    cursor: pointer;
+}
+.contact-form form button:hover {
+    box-shadow: 0 0 10px aqua;
+    transition: box-shadow 0.3s ease;
+}
+
+/*--------- Footer --------- */ 
+
+/*--------- Media Quaries --------- */ 
 @media only screen and (max-width: 900px){ 
-    /* Header Section */
+/*--------- Header Section --------- */ 
     .header-text {
         margin-top: 19%;
         font-size: 30px;
@@ -307,7 +435,7 @@ nav .fa-solid{
         padding-right: 8%;
     }
     nav ul{
-        background: #313131;
+        background: #1c212b;
         position: fixed;
         top: 0;
         right: -200px;
@@ -327,7 +455,8 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-    /* About Me Section */
+
+    /*--------- About Me Section --------- */ 
     .about-sec-1 img {
         display: none;
     }
@@ -346,7 +475,8 @@ nav .fa-solid{
         line-height: 140%;
         text-align: center;
     }
-    /* Projects Section */
+
+    /*--------- Projects Section --------- */ 
     .layer h3 {
         margin-top: 10px;
     }
@@ -379,6 +509,53 @@ nav .fa-solid{
         margin-top: 10px;
         font-size: 16px; 
     }
+
+    /*--------- Skills Section --------- */
+    .skills-container {
+        padding-left: 0;
+        padding-right: 100px;
+        margin-left: 100px;
+    }
+    .skills-list {
+        padding-left: 100px;
+        position: relative;
+        display: grid;
+    }
+    .skills-list .card1 {
+        margin-left: -65px;
+        display: grid;
+    }
+    .skills-list .card2 {
+        margin-left: -65px;
+        display: grid;
+    }
+    .skills-list div i {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .skills-list div h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .skills-list div a {
+        margin-top: 15px;
+    }
+    #viewjBtn {
+        font-size: 18px;
+        padding: 12px 40px;
+    }
+
+    /*--------- Contact Me Section --------- */
+    .contact-title h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .contact-form form {
+        text-align: center;
+        width: 85%;
+        margin: 0 auto; 
+    }
     
+    /*--------- Footer Section --------- */
 }
 

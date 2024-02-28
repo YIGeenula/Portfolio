@@ -130,7 +130,7 @@ nav .fa-solid{
         padding-right: 8%;
     }
     nav ul{
-        background: #313131;
+        background: #1c212b;
         position: fixed;
         top: 0;
         right: -200px;
@@ -157,48 +157,39 @@ nav .fa-solid{
         padding-left: 5%;
         transition: transform 0.5s ease;
         transform: scale(1);
-    }
-    
+    } 
     .resume-layer {
         padding-top: 20px; 
         padding-left: 5%; 
         text-align: center; 
-    }
-    
+    }   
     .resume-layer h1 {
         font-size: 30px;
         margin-top: 0;
-    }
-    
+    } 
     .resume-layer p {
         font-size: 18px;
         margin-top: 10px; 
     }
-    
-    .res-view-btn{
-        display: none;
-    }
     .res-download-btn {
         display: block;
         color: rgb(0, 0, 0);
-        font-size: 16px; /* Adjust as needed */
+        font-size: 16px; 
         font-weight: bold;
-        margin-top: 20px; /* Adjust as needed */
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        width: 70%; /* Adjust as needed */
-        max-width: 200px; /* Set a maximum width */
+        width: 70%; 
+        max-width: 200px; 
         border: none;
         background-color: aqua;
-        padding: 14px 20px; /* Adjust as needed */
+        padding: 14px 20px; 
         border-radius: 25px;
         text-align: center;
         text-decoration: none;
         box-shadow: 4px 4px 10px #000000;
         cursor: pointer;
     }
-    
-    .res-view-btn:hover,
     .res-download-btn:hover {
         box-shadow: 0 0 10px aqua;
         transition: box-shadow 0.3s ease;
