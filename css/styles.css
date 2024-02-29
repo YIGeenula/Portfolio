@@ -55,7 +55,7 @@ nav a:hover {
     color: aqua;
 }
 .header-text {
-    margin-top: 19%;
+    margin-top: -27%;
     font-size: 30px;
     line-height: 50px;
 }
@@ -84,9 +84,22 @@ nav a:hover {
     transition: 0.5s;
     color: #00ffaa;
 }
+.profile-picture {
+    position: relative;
+    margin-left: 60%;
+    margin-top: 6%;
+    transition: transform 0.3s ease;
+}
+.profile-picture:hover {
+    transition: 0.3s ease;
+    transform: scale(1.02) ;
+}
+.profile-picture:not(:hover) {
+    transform: scale(1); 
+}
 
 /*--------- Mobile Version --------- */ 
-.mb-hi {
+.mb-hi, .mb-name  {
     display: none;
 }
 .mb-name {
@@ -273,7 +286,6 @@ nav .fa-solid{
     margin-top: 80px;  
     margin-left: -100px;   
 }
-
 .skills-list div {
     background: #1f232d;
     padding: 40px;
@@ -457,11 +469,12 @@ nav .fa-solid{
     transition: box-shadow 0.3s ease;
 }
 
-
-
 /*--------- Media Quaries --------- */ 
 @media only screen and (max-width: 900px){ 
 /*--------- Header Section --------- */ 
+    body {
+        min-width: 380px;
+    }
     .header-text {
         margin-top: 19%;
         font-size: 30px;
@@ -480,6 +493,9 @@ nav .fa-solid{
         display: none;
         font-size: 25px;
         margin-top: 20px;
+    }
+    .profile-picture {
+        display: none;
     }
     .mb-hi {    /* Hi there | Mobile Version */
         font-size: 30px;
@@ -661,5 +677,6 @@ nav .fa-solid{
     .footer-col .goUpbtn {
         display: none;
     }
+
 }   
 
