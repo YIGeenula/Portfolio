@@ -360,6 +360,9 @@ nav .fa-solid{
     width: 30%;
     margin: 0 auto; 
 }
+.cinputs::placeholder{
+    color: black;
+}
 .contact-form form input,
 .contact-form form textarea {
     width: 100%; 
@@ -369,7 +372,7 @@ nav .fa-solid{
     text-align: center;
     padding: 15px;
     margin: 15px 0; 
-    color: white;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
     resize: vertical;
