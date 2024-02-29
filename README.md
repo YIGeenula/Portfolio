@@ -31,3 +31,8 @@
 ## -----Resume Page----- 
 
 #### CV Mockup | https://www.freepik.com/  || Edit: Adobe Photoshop
+
+## -----Domain and Hosting----- 
+
+#### Domain: wwww.namecheap.com
+#### Hosting Service: www.netlify.com
