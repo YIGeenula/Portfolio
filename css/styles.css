@@ -374,6 +374,90 @@ nav .fa-solid{
 }
 
 /*--------- Footer --------- */ 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: #11141a;
+    padding: 30px 0;
+}
+.footer-col {
+    width: 25%;
+    padding-left: 120px;
+}
+.fo-contact {
+    color: white;
+    font-size: 20px;
+}
+.footer-col h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+}
+.footer-col ul li {
+    line-height: 25px;
+    list-style-type: none;
+}
+.footer-col .fo-contact{
+    margin-left: 10px;
+}
+.footer-col ul li a{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+}
+.footer-col .social-links {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #ffffff;
+    display: inline-block;
+}
+.social-links .fa-brands {
+    color: white;
+}
+.fres-download-btn {
+    width: 150px; 
+    height: 40px; 
+    background-color: aqua;
+    color: black !important; 
+    font-weight: bold !important;
+    text-align: center;
+    display: inline-block; 
+    line-height: 40px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+.fres-download-btn:hover {
+    box-shadow: 0 0 10px aqua;
+    transition: box-shadow 0.3s ease;
+}
+.goUpbtn {
+    margin-top: 20px;
+    width: 50px; 
+    height: 40px; 
+    background-color: aqua;
+    color: black !important; 
+    font-weight: bold !important;
+    text-align: center;
+    display: inline-block; 
+    line-height: 40px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+.goUpbtn:hover {
+    box-shadow: 0 0 10px aqua;
+    transition: box-shadow 0.3s ease;
+}
+
+
 
 /*--------- Media Quaries --------- */ 
 @media only screen and (max-width: 900px){ 
@@ -557,5 +641,25 @@ nav .fa-solid{
     }
     
     /*--------- Footer Section --------- */
-}
+    .footer-col {
+        width: 100%; 
+        padding-left: 0; 
+        margin-bottom: 20px; 
+        text-align: center;
+    }
+    .footer-col h2 {
+        font-size: 24px; 
+        margin-bottom: 15px; 
+    }
+    .footer-col .social-links {
+        margin-right: 10px; 
+    }
+    .fres-download-btn {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+    .footer-col .goUpbtn {
+        display: none;
+    }
+}   
 
