@@ -106,14 +106,6 @@ nav a:hover {
     position: relative;
     margin-left: 60%;
     margin-top: 6%;
-    transition: transform 0.3s ease;
-}
-.profile-picture:hover {
-    transition: 0.3s ease;
-    transform: scale(1.02) ;
-}
-.profile-picture:not(:hover) {
-    transform: scale(1); 
 }
 
 /*--------- Mobile Version --------- */ 
