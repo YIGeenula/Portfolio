@@ -3,7 +3,7 @@
 ### This readme section contains all the references used to create this Portfolio.
 
 ## Design and idea got by: Behance, YouTube and Google 
-## To Solve errors: YouTube, Stackoverflow, Google Scholar
+## To Solve errors: YouTube, W3School, Stackoverflow, Google Scholar
 
 ## -----Color Theme-----
 
