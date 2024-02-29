@@ -402,7 +402,7 @@ nav .fa-solid{
 }
 .footer {
     background-color: #11141a;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 .footer-col {
     width: 25%;
@@ -477,6 +477,18 @@ nav .fa-solid{
 .goUpbtn:hover {
     box-shadow: 0 0 10px aqua;
     transition: box-shadow 0.3s ease;
+}
+.copyright {
+    background: #313133;
+    text-align: center;
+    padding: 20px 0;
+}
+.copyright i {
+    margin-right: 10px; 
+}
+.copyright-txt {
+    color: white;
+    font-weight: 600;
 }
 
 /*--------- Media Quaries --------- */ 
@@ -687,6 +699,14 @@ nav .fa-solid{
     .footer-col .goUpbtn {
         display: none;
     }
-
+    .copyright {
+        padding: 10px 10px;
+    }
+    .copyright-txt {
+        font-size: 12px; 
+    }
+    .fa-regular {
+        font-size: 12px;
+    }
 }   
 
