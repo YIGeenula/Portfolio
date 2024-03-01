@@ -73,7 +73,7 @@ nav a:hover {
     color: aqua;
 }
 .header-text {
-    margin-top: -27%;
+    margin-top: 16%;
     font-size: 30px;
     line-height: 50px;
 }
@@ -101,11 +101,6 @@ nav a:hover {
 .social-icons a:hover{
     transition: 0.5s;
     color: #00ffaa;
-}
-.profile-picture {
-    position: relative;
-    margin-left: 60%;
-    margin-top: 6%;
 }
 
 /*--------- Mobile Version --------- */ 
