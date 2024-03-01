@@ -77,7 +77,7 @@ nav a:hover {
     font-size: 30px;
     line-height: 50px;
 }
-.header-text p {  /* I'm skilled with */
+.header-text p {  /* hi there */
     font-size: 40px;
 }
 .header-text h1 {  /* I'm Yasiru Isum Geenula */
@@ -101,6 +101,19 @@ nav a:hover {
 .social-icons a:hover{
     transition: 0.5s;
     color: #00ffaa;
+}
+.welcome-sec-1 {
+    padding-top: 7%;
+    flex-basis: 60%;
+}
+.welcome-sec-2 {
+    position: relative;
+    flex-basis: 35%;
+}
+.welcome-sec-2 img {
+    padding-top: 15%;
+    width: 100%;
+    border-radius: 20px;
 }
 
 /*--------- Mobile Version --------- */ 
@@ -514,7 +527,7 @@ nav .fa-solid{
         font-size: 25px;
         margin-top: 20px;
     }
-    .profile-picture {
+    .welcome-sec-2 img {
         display: none;
     }
     .mb-hi {    /* Hi there | Mobile Version */

@@ -31,3 +31,7 @@
 ## -----Resume Page----- 
 
 #### CV Mockup | https://www.freepik.com/  || Edit: Adobe Photoshop
+
+## -----Domain and Hosting----- 
+
+#### InfinityFree | https://www.infinityfree.com/
